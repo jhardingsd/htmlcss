@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flexbox Gallery</title>
+    <meta charset="utf-8">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #fff;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        #gallery {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-around;
+            
+        }
+
+        #bob {
+            margin: 1em;
+            box-shadow: 10px 10px #777;
+        }
+    
+        img {
+            border-radius: 25px;
+            border-style: solid;
+            border-color: black;
+
+        }
+    
+
+        
+    </style>
+    
+</head>
+
+<body>
+    <header>
+        <h1>Flexbox Gallery</h1>
+    </header>
+    <main>
+
+        <div id="gallery">
+            <img id="bob" src="bird1.jpg" width="200" height="150" alt="Red Crested Cardinal">
+            <img id="bob" src="bird2.jpg" width="200" height="150" alt="Red-Breasted Grosbeak">
+            <img id="bob" src="bird3.jpg" width="200" height="150" alt="Gyrfalcon">
+            <img id="bob" src="bird4.jpg" width="200" height="150" alt="Rock Wren">
+            <img id="bob" src="bird5.jpg" width="200" height="150" alt="Coppers Hawk">
+            <img id="bob" src="bird6.jpg" width="200" height="150" alt="Immature Bald Eagle">
+
+        </div>
+
+    </main>
+</body></html>
+
+
